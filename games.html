@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Categories</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color:#050e2d;
+		}
+		header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 7px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1b2141;
+            transition: o.5s;
+            z-index: 1000;
+        }
+
+	
+		header {
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+
+         }
+  
+        nav ul {
+              display: flex;
+             list-style: none;
+          }
+  
+		  nav ul li {
+			margin: 0 10px;
+        }
+  
+         nav ul li a {
+         color: #ffffff;
+         text-decoration: none;
+         padding: 10px 20px;
+         border-radius: 5px;
+         }
+  
+        nav ul li a:hover{
+         background: #1aeeef;
+         color: #050e2d;
+        box-shadow: 0 0 10px #1aeeef;  
+        }
+
+		.container {
+			max-width: 1026px;
+            margin: 76px auto;
+            padding: 20px;
+		}
+
+	    header .logo{
+            position: relative;
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+		.categories {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		.category {
+			width: 28%;
+            margin-bottom: 54px;
+            margin-top: 53px;
+            height: 381px;
+            background-color: #1b2141;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+            transition: box-shadow 0.3s ease-in-out;
+		}
+
+		.category:hover {
+			box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+		}
+
+		.category img {
+		   width: 98%;
+           height: 261px;
+           margin: 1%;
+           border-radius: 39px
+		}
+
+		.category h2 {
+			font-size: 24px;
+			margin: 10px;
+			text-align: center;
+			color: #fff;
+		}
+
+		.category p {
+			font-size: 16px;
+			margin: 10px;
+			text-align: center;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Online PC Videos Games</a>
+		<nav>
+		  <ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="#">Contact</a></li>
+		  </ul>
+		</nav>
+		</header>
+	<div class="container">
+		<div class="categories">
+			<div class="category">
+				<img src="image/pubg.png" alt="Action Games">
+				<h2><a href="action.html" id="anchor"> Action Games</a></h2>
+				<p>Experience the thrill of adventure and excitement with our action games.</p>
+			</div>
+			<div class="category">
+				<img src="image/FIFA-23.png" alt="Sports Games">
+				<h2><a href="sports.html" id="anchor">Sports Games</a></h2>
+				<p>Get your adrenaline pumping with our collection of sports games.</p>
+			</div>
+			<div class="category">
+				<img src="image/braid puzzle.jpg" alt="Puzzle Games">
+				<h2><a href="puzzle.html" id="anchor">Puzzle Games</a></h2>
+				<p>Challenge your mind with our selection of puzzle games.</p>
+			</div>
+			<div class="category">
+				<img src="image/dishonored.webp" alt="Strategy Games">
+				<h2><a href="Strategy.html" id="anchor">Strategy Games</a></h2>
+				<p>Put your strategic thinking skills to the test with our strategy games.</p>
+			</div>
+			<div class="category">
+				<img src="image/call of duty.png " alt="Adventure Games">
+				<h2><a href="Adventure.html" id="anchor" >Adventure Games</a></h2>
+				<p>Embark on an epic adventure with our collection of adventure games.</p>
+			</div>
+			<div class="category">
+				<img src="image/Racing.jpg" alt="Racing Games">
+				<h2><a href="Racing.html" id="anchor">Racing Games</a></h2>
+				<p>Feel the need for speed with our collection of Racing games.</p>
+            </div>
+        </body>
+</html>
